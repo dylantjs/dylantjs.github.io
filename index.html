@@ -68,6 +68,30 @@
     
     </table>
 
+    <h4>Form</h4>
+
+    <form>
+        Name: 
+        <input type="text"
+        name="name"
+        size="20"/>
+
+        <br/>
+        Relationship Status:
+        <input name="rs" type="radio" value="s" checked /> Single
+        <input name="rs" type="radio" value="t" /> Taken
+        
+        <br />
+        Favourite Fruits
+        <p>Please check all that apply</p>
+        <input name="fruits[]" type="checkbox" value="d"  />Durian
+        <input name="fruits[]" type="checkbox" value="ms" /> Mangosteen <br/>
+        <input name="fruits[]" type="checkbox" value="a" checked />Apple
+        <input name="fruits[]" type="checkbox" value="l" /> Logan
+        
+        <input type="submit" value="Submit"/>
+    </form>
+
 
 </body>
 </html>
